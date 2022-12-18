@@ -28,4 +28,20 @@ public class Person  implements Serializable {
     public String getIdNumber() {
         return idNumber;
     }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public void setIdType(String idType) {
+        this.idType = idType;
+    }
+
+    public void setIdNumber(String idNumber) {
+        this.idNumber = idNumber;
+    }
 }

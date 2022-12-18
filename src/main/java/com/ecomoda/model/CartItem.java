@@ -8,6 +8,13 @@ public class CartItem  implements Serializable {
     public CartItem() {
 
     }
+
+    public CartItem(String id, ArticleType articleType, int amount) {
+        this.id = id;
+        this.articleType = articleType;
+        this.amount = amount;
+    }
+
     private String id;
     private ArticleType articleType;
     private int amount;

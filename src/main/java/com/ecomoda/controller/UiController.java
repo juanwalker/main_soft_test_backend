@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@CrossOrigin(maxAge = 3600)
+
 @RestController("/ui")
 public class UiController {
 
